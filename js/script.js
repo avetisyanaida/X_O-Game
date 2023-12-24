@@ -59,11 +59,11 @@ function winner() {
         if (btns[win[k][0]].textContent == x &&
             btns[win[k][1]].textContent == x &&
             btns[win[k][2]].textContent == x) {
-                h2.innerHTML = 'Player X: Congatulations: You Win!';
+                h2.innerHTML = 'Player X: Congratulations: You Win!';
             }else if (btns[win[k][0]].textContent == o &&
                 btns[win[k][1]].textContent == o &&
                 btns[win[k][2]].textContent == o) {
-                    h2.innerHTML = 'Player O: Congatulations: You Win!';
+                    h2.innerHTML = 'Player O: Congratulations: You Win!';
             }
     }
 };
